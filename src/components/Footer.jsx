@@ -13,10 +13,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: '🐙', url: 'https://github.com/yourusername' },
-    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/yourprofile' },
-    { name: 'Twitter', icon: '🐦', url: 'https://twitter.com/yourusername' },
-    { name: 'Email', icon: '📧', url: 'mailto:your.email@example.com' }
+    { name: 'GitHub', icon: '🐙', url: 'https://github.com/upaharjana' },
+    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/upaharjana' },
+    { name: 'Twitter', icon: '🐦', url: 'https://twitter.com/upaharjana' },
+    { name: 'Email', icon: '📧', url: 'mailto:upaharjana2004@gmail.com' }
   ];
 
   const scrollToTop = () => {
@@ -91,15 +91,15 @@ const Footer = () => {
             <div className="footer-contact">
               <p>
                 <span className="contact-icon">📧</span>
-                your.email@example.com
+                upaharjana2004@gmail.com
               </p>
               <p>
                 <span className="contact-icon">📱</span>
-                +1 (555) 123-4567
+                +91 xxxxx-xxxxx
               </p>
               <p>
                 <span className="contact-icon">📍</span>
-                Your City, Country
+                Kolkata, India
               </p>
             </div>
             <button 
@@ -116,7 +116,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-divider"></div>
           <div className="footer-bottom-content">
-            <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+            <p>&copy; {currentYear} Upahar Jana. All rights reserved.</p>
             <div className="footer-bottom-links">
               <span className="footer-link">Privacy Policy</span>
               <span className="footer-link">Terms of Service</span>
