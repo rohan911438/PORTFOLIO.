@@ -13,10 +13,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: '🐙', url: 'https://github.com/rohan-kumar' },
-    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/rohan-kumar' },
-    { name: 'Twitter', icon: '🐦', url: 'https://twitter.com/rohan_kumar' },
-    { name: 'Email', icon: '📧', url: 'mailto:rohan.kumar@example.com' }
+    { name: 'GitHub', icon: '🐙', url: 'https://github.com/rohan911438' },
+    { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/rohan-kumar-1a60b7314/' },
+    { name: 'Twitter', icon: '🐦', url: 'https://x.com/ROHANKUMAR77238' },
+    { name: 'Email', icon: '📧', url: 'mailto:123131rkorohan@gmail.com' }
   ];
 
   const scrollToTop = () => {

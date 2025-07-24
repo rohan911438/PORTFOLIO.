@@ -32,10 +32,12 @@ const Home = () => {
             </div>
           </div>
           <div className="home-image">
-            <div className="image-placeholder">
-              <div className="avatar">
-                <span>👨‍💻</span>
-              </div>
+            <div className="profile-photo">
+              <img 
+                src="/profile-photo.jpg" 
+                alt="Rohan Kumar - ML Enthusiast & CS Student" 
+                className="profile-img"
+              />
             </div>
           </div>
         </div>
