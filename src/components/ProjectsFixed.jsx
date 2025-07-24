@@ -34,9 +34,9 @@ const Projects = () => {
       description: 'Complete MLOps pipeline for wine quality prediction using MLflow for experiment tracking, model versioning, and deployment.',
       image: '🍷',
       technologies: ['Python', 'MLflow', 'Scikit-learn', 'Docker'],
-      liveUrl: '#',
-      githubUrl: 'https://github.com/rohan911438/MLflow-wine-quality-prediction',
-      featured: false
+      liveUrl: 'https://dagshub.com/rohan911438/MLFLOW-WINE-QUALITY-PREDICTION.mlflow',
+      githubUrl: 'https://github.com/rohan911438/MLFLOW-WINE-QUALITY-PREDICTION',
+      featured: true
     },
     {
       id: 4,
@@ -56,28 +56,117 @@ const Projects = () => {
       description: 'Machine learning model for stock price forecasting using historical data, technical indicators, and time series analysis.',
       image: '📈',
       technologies: ['Python', 'LSTM', 'TensorFlow', 'Financial Analysis'],
-      liveUrl: '#',
+      liveUrl: 'https://rohan911438.github.io/Stock-price-prediction/',
       githubUrl: 'https://github.com/rohan911438/Stock-price-prediction',
       featured: false
     },
     {
       id: 6,
+      title: 'Sentiment Analysis',
+      category: 'ml',
+      description: 'Natural Language Processing project for real-time text sentiment classification using machine learning algorithms and text preprocessing.',
+      image: '💭',
+      technologies: ['Python', 'NLP', 'Scikit-learn', 'Text Processing'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/rohan911438/Sentiment-Analysis',
+      featured: false
+    },
+    {
+      id: 7,
+      title: 'Image Classification',
+      category: 'ml',
+      description: 'Computer vision system for automated image recognition using deep learning and convolutional neural networks.',
+      image: '🖼️',
+      technologies: ['Python', 'TensorFlow', 'CNN', 'Computer Vision'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/rohan911438/Image-Classfication',
+      featured: false
+    },
+    {
+      id: 8,
+      title: 'Diwali Sales EDA',
+      category: 'data-science',
+      description: 'Comprehensive exploratory data analysis on Diwali sales data revealing consumer purchasing patterns for business insights.',
+      image: '🪔',
+      technologies: ['Python', 'Pandas', 'Matplotlib', 'Seaborn'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/rohan911438/Diwali-Sales-EDA',
+      featured: false
+    },
+    {
+      id: 9,
+      title: 'Iris Flower Classification',
+      category: 'ml',
+      description: 'Classic machine learning project classifying iris flowers into three species using scikit-learn and statistical analysis.',
+      image: '🌸',
+      technologies: ['Python', 'Scikit-learn', 'Jupyter', 'Statistical Analysis'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/rohan911438/Iris-Flower-Classification',
+      featured: false
+    },
+    {
+      id: 10,
+      title: 'Churn Prediction Analysis',
+      category: 'data-science',
+      description: 'Comprehensive customer churn analysis with advanced data science techniques and predictive modeling.',
+      image: '📊',
+      technologies: ['Python', 'Pandas', 'Jupyter', 'Data Analysis'],
+      liveUrl: 'https://rohan911438.github.io/Churn-Prediction/',
+      githubUrl: 'https://github.com/rohan911438/Churn-Prediction',
+      featured: false
+    },
+    {
+      id: 11,
+      title: 'Titanic Survival Prediction',
+      category: 'ml',
+      description: 'Classic Kaggle challenge predicting passenger survival using machine learning with comprehensive data analysis.',
+      image: '🚢',
+      technologies: ['Python', 'Pandas', 'Scikit-learn', 'Jupyter'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/rohan911438/Titanic-survival-prediction',
+      featured: false
+    },
+    {
+      id: 12,
       title: 'BLACKWEB Blockchain',
-      category: 'software',
-      description: 'Blockchain implementation with cryptocurrency features, smart contracts, and decentralized application capabilities.',
-      image: '⛓️',
-      technologies: ['Python', 'Blockchain', 'Cryptography', 'Web3'],
+      category: 'web-development',
+      description: 'Revolutionary blockchain-based crowdfunding platform with milestone-driven transparency and smart contracts.',
+      image: '🌐',
+      technologies: ['JavaScript', 'Blockchain', 'Smart Contracts', 'Web3'],
       liveUrl: '#',
       githubUrl: 'https://github.com/rohan911438/BLACKWEB',
       featured: true
+    },
+    {
+      id: 13,
+      title: 'Karam Smart File Agent',
+      category: 'web-development',
+      description: 'Modern TypeScript web application for unified file processing operations including zipping, image, audio, and PDF tasks.',
+      image: '📁',
+      technologies: ['TypeScript', 'React', 'File Processing', 'Web APIs'],
+      liveUrl: 'https://rohan911438.github.io/karam-smart-file-agent/',
+      githubUrl: 'https://github.com/rohan911438/karam-smart-file-agent',
+      featured: false
+    },
+    {
+      id: 14,
+      title: 'Grocery Store Management',
+      category: 'software',
+      description: 'CLI-based management system built with Python and SQL for inventory management and text file handling.',
+      image: '🛒',
+      technologies: ['Python', 'SQL', 'CLI', 'File Handling'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/rohan911438/Grocery-store-management-system',
+      featured: false
     }
   ];
 
   const categories = [
     { key: 'all', label: 'All Projects' },
     { key: 'ml', label: 'Machine Learning' },
-    { key: 'frontend', label: 'Frontend' },
-    { key: 'software', label: 'Software' }
+    { key: 'data-science', label: 'Data Science' },
+    { key: 'web-development', label: 'Web Development' },
+    { key: 'software', label: 'Software Projects' }
   ];
 
   const filteredProjects = filter === 'all' 

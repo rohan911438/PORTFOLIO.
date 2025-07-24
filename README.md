@@ -1,6 +1,6 @@
 # Portfolio Website - Rohan Kumar
 
-A modern, responsive portfolio website showcasing my journey as a Computer Science student and aspiring Web Developer. Built with React and Vite, this portfolio demonstrates my learning progress in web development and programming.
+A modern, responsive portfolio website showcasing my expertise in Machine Learning, Data Science, and Web Development. Built with React and Vite, this portfolio demonstrates my professional journey and technical capabilities.
 
 ## 🚀 Features
 
@@ -9,8 +9,8 @@ A modern, responsive portfolio website showcasing my journey as a Computer Scien
 - **Component-Based**: Modular React components for easy maintenance and scalability
 - **Smooth Navigation**: Scroll-to-section navigation with smooth scrolling effects
 - **Interactive Contact Form**: Form validation and submission feedback
-- **Skills Showcase**: Visual representation of my learning progress with animated progress bars
-- **Student Projects**: Showcase of practice projects and learning exercises
+- **Skills Showcase**: Visual representation of my technical expertise with animated progress bars
+- **ML Projects**: Comprehensive showcase of Machine Learning and Data Science projects
 - **Fast Performance**: Built with Vite for optimal build times and performance
 
 ## 🛠️ Tech Stack
@@ -21,12 +21,6 @@ A modern, responsive portfolio website showcasing my journey as a Computer Scien
 - **Fonts**: Google Fonts (Inter, JetBrains Mono)
 - **Icons**: Emoji icons for universal appeal
 - **Theme**: Custom dark/black theme design
-- **Component-Based**: Modular React components for easy maintenance
-- **Smooth Navigation**: Scroll-to-section navigation with smooth scrolling
-- **Contact Form**: Interactive contact form with validation
-- **Skills Showcase**: Visual representation of technical skills with progress bars
-- **Project Gallery**: Filterable project showcase with live demo and GitHub links
-- **Fast Performance**: Built with Vite for optimal build times and performance
 
 ## Components
 
