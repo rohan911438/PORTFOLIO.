@@ -77,7 +77,7 @@ const Skills = () => {
         <div className="section-header">
           <h2 className="section-title">Skills & Learning Journey</h2>
           <p className="section-subtitle">
-            My technical skills in Machine Learning and ongoing web development journey
+            My technical skills in Machine Learning and web development journey as an IT student
           </p>
         </div>
 

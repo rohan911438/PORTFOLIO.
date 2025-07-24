@@ -16,7 +16,7 @@ const About = () => {
               <h3>Who Am I?</h3>
               <p>
                 I'm Rohan Kumar, a 2nd year Information Technology student at Government College of 
-                Engineering and Ceramic Technology. I'm passionate about Machine Learning and AI, 
+                Engineering and Ceramic Technology, Kolkata. I'm passionate about Machine Learning and AI, 
                 with a growing interest in how these technologies can be integrated into web applications.
               </p>
               <p>
@@ -57,6 +57,68 @@ const About = () => {
             <div className="stat-card">
               <div className="stat-number">500+</div>
               <div className="stat-label">Hours of Learning</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="education-section">
+          <h3>Education</h3>
+          <div className="education-timeline">
+            <div className="edu-card current">
+              <div className="edu-header">
+                <div className="edu-logo">🎓</div>
+                <div className="edu-details">
+                  <h4>Bachelor of Technology - Information Technology</h4>
+                  <h5>Government College of Engineering & Ceramic Technology</h5>
+                  <span className="edu-period">Aug 2024 - Jun 2028</span>
+                  <span className="edu-grade">Grade: 9.44</span>
+                </div>
+              </div>
+              <p className="edu-description">
+                Premier engineering institute in Kolkata (est. 1941), affiliated with MAKAUT and AICTE approved. 
+                Specializing in cutting-edge fields with strong industry collaborations and excellent placement opportunities.
+              </p>
+              <div className="edu-skills">
+                <span className="skill-tag">Artificial Intelligence</span>
+                <span className="skill-tag">AutoCAD</span>
+                <span className="skill-tag">Engineering</span>
+              </div>
+            </div>
+
+            <div className="edu-card">
+              <div className="edu-header">
+                <div className="edu-logo">📚</div>
+                <div className="edu-details">
+                  <h4>Science (CBSE)</h4>
+                  <h5>India International School, Asansol</h5>
+                  <span className="edu-period">Mar 2013 - Jun 2024</span>
+                </div>
+              </div>
+              <p className="edu-description">
+                Reputed CBSE institution focused on academic excellence and holistic development. 
+                Active participation in academics, sports, cultural events, and leadership programs.
+              </p>
+              <div className="edu-skills">
+                <span className="skill-tag">Python</span>
+                <span className="skill-tag">SQL</span>
+                <span className="skill-tag">Microsoft Excel</span>
+                <span className="skill-tag">Leadership</span>
+              </div>
+            </div>
+
+            <div className="edu-card">
+              <div className="edu-header">
+                <div className="edu-logo">⚓</div>
+                <div className="edu-details">
+                  <h4>Elementary Education</h4>
+                  <h5>Navy Children School, Vizag</h5>
+                  <span className="edu-period">Mar 2011 - Apr 2013</span>
+                </div>
+              </div>
+              <p className="edu-description">
+                Prestigious naval institution emphasizing discipline, values, and character-building. 
+                Strong foundation in academics with focus on innovation and leadership development.
+              </p>
             </div>
           </div>
         </div>

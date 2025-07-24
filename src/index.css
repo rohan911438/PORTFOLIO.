@@ -3,6 +3,7 @@
 :root {
   /* Dark Color Palette - More Black Theme */
   --primary-color: #00d4ff;
+  --primary-color-rgb: 0, 212, 255;
   --secondary-color: #0ea5e9;
   --accent-color: #22c55e;
   --warning-color: #f59e0b;

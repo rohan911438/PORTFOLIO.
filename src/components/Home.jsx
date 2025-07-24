@@ -12,9 +12,9 @@ const Home = () => {
             </h1>
             <h2 className="home-subtitle">Machine Learning Enthusiast & Information Technology Student</h2>
             <p className="home-description">
-              2nd Year Information Technology student at Government College of Engineering and Ceramic Technology, 
-              passionate about Machine Learning and AI. Currently learning web development 
-              to build interactive ML applications and expand my technical skillset.
+              2nd Year Information Technology student at Government College of Engineering and Ceramic Technology, Kolkata, 
+              passionate about Machine Learning and AI. Building interactive ML applications and 
+              expanding my technical expertise in data science and web development.
             </p>
             <div className="home-buttons">
               <button 

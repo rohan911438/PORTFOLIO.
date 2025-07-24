@@ -189,13 +189,17 @@ const Projects = () => {
         </div>
         <div className="project-links">
           <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="project-link github">
-            <span>GitHub</span>
+            <span>🐙 GitHub</span>
           </a>
-          {project.liveUrl !== '#' && (
-            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-link live">
-              <span>Live Demo</span>
-            </a>
-          )}
+          <a 
+            href={project.liveUrl !== '#' ? project.liveUrl : '#'} 
+            target={project.liveUrl !== '#' ? "_blank" : "_self"} 
+            rel="noopener noreferrer" 
+            className={`project-link live ${project.liveUrl === '#' ? 'disabled' : ''}`}
+            onClick={project.liveUrl === '#' ? (e) => e.preventDefault() : undefined}
+          >
+            <span>{project.liveUrl === '#' ? '🚧 Coming Soon' : '🌐 Live Demo'}</span>
+          </a>
         </div>
       </div>
     </div>
