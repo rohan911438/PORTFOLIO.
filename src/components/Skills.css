@@ -16,7 +16,7 @@
 
 .section-title {
   font-size: 3rem;
-  color: #2c3e50;
+  color: var(--text-primary);
   margin-bottom: 1rem;
   font-weight: bold;
   position: relative;
@@ -30,13 +30,13 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(45deg, #3498db, #2980b9);
+  background: var(--gradient-accent);
   border-radius: 2px;
 }
 
 .section-subtitle {
   font-size: 1.2rem;
-  color: #7f8c8d;
+  color: var(--text-secondary);
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -53,11 +53,12 @@
 }
 
 .skill-category {
-  background: white;
+  background: var(--card-bg);
   padding: 2.5rem;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-lg);
   transition: transform 0.3s ease;
+  border: 1px solid var(--border-primary);
 }
 
 .skill-category:hover {
@@ -65,13 +66,13 @@
 }
 
 .skill-category h3 {
-  color: #2c3e50;
+  color: var(--text-primary);
   font-size: 1.5rem;
   margin-bottom: 2rem;
   font-weight: 600;
   text-align: center;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #ecf0f1;
+  border-bottom: 2px solid var(--border-secondary);
 }
 
 .skills-list {
@@ -100,18 +101,18 @@
 .skill-name {
   flex: 1;
   font-weight: 500;
-  color: #2c3e50;
+  color: var(--text-primary);
 }
 
 .skill-percentage {
-  color: #3498db;
+  color: var(--primary-color);
   font-weight: 600;
   font-size: 0.9rem;
 }
 
 .skill-bar {
   height: 8px;
-  background: #ecf0f1;
+  background: var(--border-secondary);
   border-radius: 4px;
   overflow: hidden;
   position: relative;
@@ -119,7 +120,7 @@
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(45deg, #3498db, #2980b9);
+  background: var(--gradient-accent);
   border-radius: 4px;
   transition: width 1.5s ease-in-out;
   position: relative;
@@ -142,14 +143,15 @@
 }
 
 .experience-section {
-  background: white;
+  background: var(--card-bg);
   padding: 3rem;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-primary);
 }
 
 .experience-section h3 {
-  color: #2c3e50;
+  color: var(--text-primary);
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -168,7 +170,7 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(to bottom, #3498db, #2980b9);
+  background: var(--gradient-accent);
 }
 
 .experience-item {
@@ -187,17 +189,17 @@
   top: 0.5rem;
   width: 12px;
   height: 12px;
-  background: #3498db;
+  background: var(--primary-color);
   border-radius: 50%;
-  border: 3px solid white;
-  box-shadow: 0 0 0 3px #3498db;
+  border: 3px solid var(--bg-primary);
+  box-shadow: 0 0 0 3px var(--primary-color);
 }
 
 .experience-content {
-  background: #f8fafc;
+  background: var(--surface-secondary);
   padding: 2rem;
   border-radius: 10px;
-  border-left: 4px solid #3498db;
+  border-left: 4px solid var(--primary-color);
 }
 
 .experience-header {
@@ -210,30 +212,30 @@
 }
 
 .experience-content h4 {
-  color: #2c3e50;
+  color: var(--text-primary);
   font-size: 1.3rem;
   font-weight: 600;
   margin: 0;
 }
 
 .experience-period {
-  color: #3498db;
+  color: var(--primary-color);
   font-weight: 500;
   font-size: 0.9rem;
-  background: rgba(52, 152, 219, 0.1);
+  background: rgba(0, 212, 255, 0.1);
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
 }
 
 .experience-content h5 {
-  color: #7f8c8d;
+  color: var(--text-secondary);
   font-size: 1.1rem;
   margin: 0.5rem 0 1rem 0;
   font-weight: 500;
 }
 
 .experience-content p {
-  color: #555;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -245,7 +247,7 @@
 }
 
 .tech-tag {
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: var(--gradient-accent);
   color: white;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
