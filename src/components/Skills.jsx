@@ -2,54 +2,63 @@ import React from 'react';
 import './Skills.css';
 
 const Skills = () => {
-  const frontendSkills = [
-    { name: 'HTML5', level: 90, icon: '🌐' },
-    { name: 'CSS3', level: 85, icon: '🎨' },
-    { name: 'JavaScript', level: 88, icon: '⚡' },
-    { name: 'React', level: 85, icon: '⚛️' },
-    { name: 'TypeScript', level: 75, icon: '📘' },
-    { name: 'Sass/SCSS', level: 80, icon: '💅' }
+  const mlSkills = [
+    { name: 'Python', level: 75, icon: '🐍' },
+    { name: 'Machine Learning', level: 70, icon: '🧠' },
+    { name: 'Data Analysis', level: 65, icon: '📊' },
+    { name: 'NumPy', level: 60, icon: '🔢' },
+    { name: 'Pandas', level: 55, icon: '🐼' },
+    { name: 'Scikit-learn', level: 50, icon: '⚙️' }
   ];
 
-  const backendSkills = [
-    { name: 'Node.js', level: 82, icon: '🟢' },
-    { name: 'Express.js', level: 80, icon: '🚀' },
-    { name: 'MongoDB', level: 75, icon: '🍃' },
-    { name: 'PostgreSQL', level: 70, icon: '🐘' },
-    { name: 'REST APIs', level: 85, icon: '🔌' },
-    { name: 'GraphQL', level: 65, icon: '📊' }
+  const frontendSkills = [
+    { name: 'HTML5', level: 80, icon: '🌐' },
+    { name: 'CSS3', level: 75, icon: '🎨' },
+    { name: 'JavaScript', level: 65, icon: '⚡' },
+    { name: 'React', level: 60, icon: '⚛️' },
+    { name: 'Bootstrap', level: 70, icon: '💜' },
+    { name: 'Responsive Design', level: 75, icon: '📱' }
+  ];
+
+  const programmingSkills = [
+    { name: 'C Programming', level: 70, icon: '💻' },
+    { name: 'Java', level: 60, icon: '☕' },
+    { name: 'Python', level: 75, icon: '🐍' },
+    { name: 'Data Structures', level: 65, icon: '🏗️' },
+    { name: 'Algorithms', level: 60, icon: '🧮' },
+    { name: 'OOP Concepts', level: 65, icon: '🎯' }
   ];
 
   const tools = [
-    { name: 'Git & GitHub', level: 85, icon: '🐙' },
-    { name: 'VS Code', level: 90, icon: '💻' },
-    { name: 'Docker', level: 70, icon: '🐳' },
-    { name: 'AWS', level: 65, icon: '☁️' },
-    { name: 'Figma', level: 75, icon: '🎨' },
-    { name: 'Postman', level: 80, icon: '📮' }
+    { name: 'Git & GitHub', level: 70, icon: '🐙' },
+    { name: 'VS Code', level: 85, icon: '💻' },
+    { name: 'Figma', level: 50, icon: '🎨' },
+    { name: 'Chrome DevTools', level: 65, icon: '🔧' },
+    { name: 'Terminal/CLI', level: 60, icon: '⌨️' },
+    { name: 'Photoshop', level: 45, icon: '🖼️' }
   ];
 
-  const experiences = [
+  const learning = [
     {
-      title: 'Frontend Developer',
-      company: 'Tech Solutions Inc.',
+      title: 'Machine Learning Student',
+      company: 'Government College of Engineering and Ceramic Technology',
       period: '2023 - Present',
-      description: 'Developing responsive web applications using React and modern frontend technologies.',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js']
+      description: 'Currently in 2nd year, focusing on ML algorithms, data analysis, and computer science fundamentals.',
+      technologies: ['Python', 'Machine Learning', 'Data Analysis', 'Statistics']
     },
     {
-      title: 'Full Stack Developer Intern',
-      company: 'Digital Innovations',
-      period: '2022 - 2023',
-      description: 'Built full-stack applications and learned modern development practices.',
-      technologies: ['Node.js', 'MongoDB', 'Express.js', 'React']
+      title: 'Web Development Journey',
+      company: 'Self-Learning',
+      period: '2024 - Present',
+      description: 'Learning web technologies to build interactive interfaces for ML projects and data visualization.',
+      technologies: ['React', 'JavaScript', 'HTML', 'CSS']
     },
     {
-      title: 'Freelance Web Developer',
-      company: 'Self-Employed',
-      period: '2021 - 2022',
-      description: 'Created custom websites for small businesses and startups.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'WordPress']
+      title: 'Programming & Algorithms',
+      company: 'Academic Coursework',
+      period: '2023 - Present',
+      description: 'Learning programming fundamentals, data structures, and algorithms essential for ML implementation.',
+      technologies: ['C', 'Java', 'Python', 'DSA']
     }
   ];
 
@@ -73,14 +82,23 @@ const Skills = () => {
     <section id="skills" className="skills">
       <div className="skills-container">
         <div className="section-header">
-          <h2 className="section-title">Skills & Experience</h2>
+          <h2 className="section-title">Skills & Learning Journey</h2>
           <p className="section-subtitle">
-            My technical skills and professional experience in web development
+            My technical skills in Machine Learning and ongoing web development journey
           </p>
         </div>
 
         <div className="skills-content">
           <div className="skills-grid">
+            <div className="skill-category">
+              <h3>Machine Learning & AI</h3>
+              <div className="skills-list">
+                {mlSkills.map((skill, index) => (
+                  <SkillBar key={index} skill={skill} />
+                ))}
+              </div>
+            </div>
+
             <div className="skill-category">
               <h3>Frontend Development</h3>
               <div className="skills-list">
@@ -91,9 +109,9 @@ const Skills = () => {
             </div>
 
             <div className="skill-category">
-              <h3>Backend Development</h3>
+              <h3>Programming Languages</h3>
               <div className="skills-list">
-                {backendSkills.map((skill, index) => (
+                {programmingSkills.map((skill, index) => (
                   <SkillBar key={index} skill={skill} />
                 ))}
               </div>
@@ -111,9 +129,9 @@ const Skills = () => {
         </div>
 
         <div className="experience-section">
-          <h3>Professional Experience</h3>
+          <h3>Learning Experience</h3>
           <div className="experience-timeline">
-            {experiences.map((exp, index) => (
+            {learning.map((exp, index) => (
               <div key={index} className="experience-item">
                 <div className="experience-dot"></div>
                 <div className="experience-content">

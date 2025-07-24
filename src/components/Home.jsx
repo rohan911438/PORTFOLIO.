@@ -10,11 +10,11 @@ const Home = () => {
             <h1 className="home-title">
               Hello, I'm <span className="highlight">Rohan Kumar</span>
             </h1>
-            <h2 className="home-subtitle">Machine Learning Engineer & Full Stack Developer</h2>
+            <h2 className="home-subtitle">Machine Learning Enthusiast & Computer Science Student</h2>
             <p className="home-description">
-              I bring ideas to life through code, specializing in machine learning, data science, 
-              and full-stack development. Passionate about creating innovative AI solutions and 
-              scalable applications that solve real-world problems and make a difference.
+              2nd Year student at Government College of Engineering and Ceramic Technology, 
+              passionate about Machine Learning and AI. Currently learning web development 
+              to build interactive ML applications and expand my technical skillset.
             </p>
             <div className="home-buttons">
               <button 

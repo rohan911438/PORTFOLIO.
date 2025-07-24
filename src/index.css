@@ -1,41 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  /* Dark Color Palette */
+  /* Dark Color Palette - More Black Theme */
   --primary-color: #00d4ff;
   --secondary-color: #0ea5e9;
   --accent-color: #22c55e;
   --warning-color: #f59e0b;
   --error-color: #ef4444;
   
-  /* Background Colors */
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #111111;
-  --bg-tertiary: #1a1a1a;
-  --bg-quaternary: #262626;
+  /* Background Colors - Darker */
+  --bg-primary: #000000;
+  --bg-secondary: #050505;
+  --bg-tertiary: #0a0a0a;
+  --bg-quaternary: #151515;
   
   /* Text Colors */
   --text-primary: #ffffff;
-  --text-secondary: #a1a1aa;
-  --text-muted: #71717a;
+  --text-secondary: #b0b0b0;
+  --text-muted: #808080;
   --text-accent: #00d4ff;
   
   /* Border Colors */
-  --border-primary: #262626;
-  --border-secondary: #404040;
+  --border-primary: #1a1a1a;
+  --border-secondary: #2a2a2a;
   --border-accent: #00d4ff;
   
-  /* Card and Surface Colors */
-  --card-bg: #161616;
-  --card-hover: #1f1f1f;
-  --surface-primary: #1a1a1a;
-  --surface-secondary: #262626;
+  /* Card and Surface Colors - Darker */
+  --card-bg: #080808;
+  --card-hover: #101010;
+  --surface-primary: #0a0a0a;
+  --surface-secondary: #151515;
   
-  /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  /* Gradients - Darker */
+  --gradient-primary: linear-gradient(135deg, #000000 0%, #0a0a0a 100%);
   --gradient-accent: linear-gradient(135deg, #00d4ff 0%, #0ea5e9 100%);
   --gradient-success: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
-  --gradient-code: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+  --gradient-code: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
   
   /* Spacing */
   --spacing-xs: 0.5rem;

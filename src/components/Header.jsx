@@ -20,7 +20,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h2>Dev.Portfolio</h2>
+          <h2>Rohan.dev</h2>
         </div>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <ul className="nav-list">

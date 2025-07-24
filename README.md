@@ -1,11 +1,26 @@
-# Portfolio Website
+# Portfolio Website - Rohan Kumar
 
-A modern, responsive portfolio website built with React and Vite. This portfolio showcases skills, projects, and provides a way for potential clients or employers to get in touch.
+A modern, responsive portfolio website showcasing my journey as a Computer Science student and aspiring Web Developer. Built with React and Vite, this portfolio demonstrates my learning progress in web development and programming.
 
-## Features
+## 🚀 Features
 
-- **Responsive Design**: Optimized for all device sizes
-- **Modern UI**: Clean and professional design with smooth animations
+- **Responsive Design**: Optimized for all device sizes with mobile-first approach
+- **Modern Dark Theme**: Clean, professional black theme design with smooth animations
+- **Component-Based**: Modular React components for easy maintenance and scalability
+- **Smooth Navigation**: Scroll-to-section navigation with smooth scrolling effects
+- **Interactive Contact Form**: Form validation and submission feedback
+- **Skills Showcase**: Visual representation of my learning progress with animated progress bars
+- **Student Projects**: Showcase of practice projects and learning exercises
+- **Fast Performance**: Built with Vite for optimal build times and performance
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19, CSS3, HTML5
+- **Build Tool**: Vite 7.0.4
+- **Styling**: Modern CSS with CSS Variables, Flexbox, Grid
+- **Fonts**: Google Fonts (Inter, JetBrains Mono)
+- **Icons**: Emoji icons for universal appeal
+- **Theme**: Custom dark/black theme design
 - **Component-Based**: Modular React components for easy maintenance
 - **Smooth Navigation**: Scroll-to-section navigation with smooth scrolling
 - **Contact Form**: Interactive contact form with validation

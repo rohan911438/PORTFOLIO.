@@ -7,66 +7,66 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      category: 'fullstack',
-      description: 'A complete e-commerce solution with user authentication, payment integration, and admin dashboard.',
-      image: '🛒',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      title: 'ML Model Visualization Dashboard',
+      category: 'ml',
+      description: 'A web-based dashboard to visualize machine learning model performance and data insights using interactive charts.',
+      image: '�',
+      technologies: ['Python', 'JavaScript', 'HTML', 'CSS', 'Chart.js'],
       liveUrl: '#',
       githubUrl: '#',
       featured: true
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'Personal Portfolio Website',
       category: 'frontend',
-      description: 'A responsive task management application with drag-and-drop functionality and real-time updates.',
-      image: '📋',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase'],
+      description: 'A responsive portfolio website built with React to showcase my ML projects and web development skills.',
+      image: '�',
+      technologies: ['React', 'CSS3', 'JavaScript', 'HTML5'],
       liveUrl: '#',
       githubUrl: '#',
-      featured: false
+      featured: true
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      category: 'frontend',
-      description: 'A beautiful weather dashboard that displays current weather and forecasts for multiple cities.',
-      image: '🌤️',
-      technologies: ['JavaScript', 'CSS3', 'Weather API', 'Chart.js'],
+      title: 'Data Analysis Project',
+      category: 'ml',
+      description: 'Analyzing real-world datasets using Python and Pandas to extract meaningful insights and patterns.',
+      image: '🔍',
+      technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
     },
     {
       id: 4,
-      title: 'Social Media API',
-      category: 'backend',
-      description: 'RESTful API for a social media platform with user authentication, posts, and real-time messaging.',
-      image: '🔗',
-      technologies: ['Node.js', 'Express', 'PostgreSQL', 'Socket.io'],
+      title: 'Simple Linear Regression Model',
+      category: 'ml',
+      description: 'Implementation of linear regression from scratch to understand ML fundamentals and mathematical concepts.',
+      image: '📈',
+      technologies: ['Python', 'NumPy', 'Matplotlib', 'Scikit-learn'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
     },
     {
       id: 5,
-      title: 'Portfolio Website',
+      title: 'Todo List App',
       category: 'frontend',
-      description: 'A responsive portfolio website built with React and modern CSS animations.',
-      image: '💼',
-      technologies: ['React', 'CSS3', 'JavaScript', 'Framer Motion'],
+      description: 'A functional todo list application with add, delete, and mark complete features using vanilla JavaScript.',
+      image: '📝',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Local Storage'],
       liveUrl: '#',
       githubUrl: '#',
-      featured: true
+      featured: false
     },
     {
       id: 6,
-      title: 'Blog CMS',
-      category: 'fullstack',
-      description: 'A content management system for blogs with rich text editor and SEO optimization.',
-      image: '📝',
-      technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'TinyMCE'],
+      title: 'Calculator App',
+      category: 'frontend',
+      description: 'A basic calculator application with essential arithmetic operations and responsive design.',
+      image: '🧮',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
@@ -75,9 +75,8 @@ const Projects = () => {
 
   const categories = [
     { key: 'all', label: 'All Projects' },
-    { key: 'fullstack', label: 'Full Stack' },
-    { key: 'frontend', label: 'Frontend' },
-    { key: 'backend', label: 'Backend' }
+    { key: 'ml', label: 'Machine Learning' },
+    { key: 'frontend', label: 'Web Development' }
   ];
 
   const filteredProjects = filter === 'all' 
@@ -118,7 +117,7 @@ const Projects = () => {
         <div className="section-header">
           <h2 className="section-title">My Projects</h2>
           <p className="section-subtitle">
-            A showcase of my recent work and projects I've built using various technologies
+            A showcase of my Machine Learning projects and web development practice work
           </p>
         </div>
 
@@ -141,10 +140,10 @@ const Projects = () => {
         </div>
 
         <div className="projects-cta">
-          <h3>Want to see more?</h3>
-          <p>Check out my GitHub profile for more projects and contributions</p>
-          <a href="https://github.com" className="cta-button" target="_blank" rel="noopener noreferrer">
-            Visit GitHub Profile
+          <h3>Currently Learning & Building</h3>
+          <p>These are practice projects I've built while learning web development. More projects coming soon!</p>
+          <a href="https://github.com/rohan-kumar" className="cta-button" target="_blank" rel="noopener noreferrer">
+            View My GitHub Journey
           </a>
         </div>
       </div>

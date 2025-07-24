@@ -13,10 +13,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: '🐙', url: 'https://github.com/upaharjana' },
-    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/upaharjana' },
-    { name: 'Twitter', icon: '🐦', url: 'https://twitter.com/upaharjana' },
-    { name: 'Email', icon: '📧', url: 'mailto:upaharjana2004@gmail.com' }
+    { name: 'GitHub', icon: '🐙', url: 'https://github.com/rohan-kumar' },
+    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/rohan-kumar' },
+    { name: 'Twitter', icon: '🐦', url: 'https://twitter.com/rohan_kumar' },
+    { name: 'Email', icon: '📧', url: 'mailto:rohan.kumar@example.com' }
   ];
 
   const scrollToTop = () => {
@@ -36,12 +36,12 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <h3>Your Name</h3>
-              <p>Full Stack Developer</p>
+              <h3>Rohan Kumar</h3>
+              <p>ML Enthusiast & CS Student</p>
             </div>
             <p className="footer-description">
-              Passionate about creating beautiful, functional, and user-centered digital experiences. 
-              Let's build something amazing together!
+              Machine Learning enthusiast and 2nd Year CS student, learning web development 
+              to build interactive ML applications and data visualization tools.
             </p>
             <div className="footer-social">
               {socialLinks.map((social, index) => (
@@ -76,13 +76,13 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h4>Services</h4>
+            <h4>Learning Focus</h4>
             <ul className="footer-links">
-              <li><span className="footer-link">Web Development</span></li>
               <li><span className="footer-link">Frontend Development</span></li>
-              <li><span className="footer-link">Backend Development</span></li>
-              <li><span className="footer-link">UI/UX Design</span></li>
-              <li><span className="footer-link">Consulting</span></li>
+              <li><span className="footer-link">React Development</span></li>
+              <li><span className="footer-link">JavaScript</span></li>
+              <li><span className="footer-link">CSS & Responsive Design</span></li>
+              <li><span className="footer-link">Programming Fundamentals</span></li>
             </ul>
           </div>
 

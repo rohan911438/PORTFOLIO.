@@ -39,34 +39,34 @@ const Contact = () => {
     {
       icon: '📧',
       title: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com'
+      value: 'rohan.kumar@example.com',
+      link: 'mailto:rohan.kumar@example.com'
     },
     {
       icon: '📱',
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+91 98765-43210',
+      link: 'tel:+919876543210'
     },
     {
       icon: '📍',
       title: 'Location',
-      value: 'Your City, Country',
+      value: 'India',
       link: '#'
     },
     {
       icon: '💼',
       title: 'LinkedIn',
-      value: 'linkedin.com/in/yourprofile',
-      link: 'https://linkedin.com/in/yourprofile'
+      value: 'linkedin.com/in/rohan-kumar',
+      link: 'https://linkedin.com/in/rohan-kumar'
     }
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: '🐙', url: 'https://github.com/yourusername' },
-    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/yourprofile' },
-    { name: 'Twitter', icon: '🐦', url: 'https://twitter.com/yourusername' },
-    { name: 'Instagram', icon: '📷', url: 'https://instagram.com/yourusername' }
+    { name: 'GitHub', icon: '🐙', url: 'https://github.com/rohan-kumar' },
+    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/rohan-kumar' },
+    { name: 'Twitter', icon: '🐦', url: 'https://twitter.com/rohan_kumar' },
+    { name: 'Instagram', icon: '📷', url: 'https://instagram.com/rohan.kumar' }
   ];
 
   return (
