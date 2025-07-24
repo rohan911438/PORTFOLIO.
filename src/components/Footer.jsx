@@ -78,11 +78,11 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Learning Focus</h4>
             <ul className="footer-links">
-              <li><span className="footer-link">Frontend Development</span></li>
-              <li><span className="footer-link">React Development</span></li>
-              <li><span className="footer-link">JavaScript</span></li>
-              <li><span className="footer-link">CSS & Responsive Design</span></li>
-              <li><span className="footer-link">Programming Fundamentals</span></li>
+              <li><span className="footer-link">Machine Learning</span></li>
+              <li><span className="footer-link">Data Analysis</span></li>
+              <li><span className="footer-link">Web Development</span></li>
+              <li><span className="footer-link">Python Programming</span></li>
+              <li><span className="footer-link">AI Applications</span></li>
             </ul>
           </div>
 
