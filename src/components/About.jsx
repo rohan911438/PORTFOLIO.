@@ -15,7 +15,7 @@ const About = () => {
             <div className="about-card">
               <h3>Who Am I?</h3>
               <p>
-                I'm Rohan Kumar, a 2nd year Computer Science student at Government College of 
+                I'm Rohan Kumar, a 2nd year Information Technology student at Government College of 
                 Engineering and Ceramic Technology. I'm passionate about Machine Learning and AI, 
                 with a growing interest in how these technologies can be integrated into web applications.
               </p>

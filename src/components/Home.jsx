@@ -10,9 +10,9 @@ const Home = () => {
             <h1 className="home-title">
               Hello, I'm <span className="highlight">Rohan Kumar</span>
             </h1>
-            <h2 className="home-subtitle">Machine Learning Enthusiast & Computer Science Student</h2>
+            <h2 className="home-subtitle">Machine Learning Enthusiast & Information Technology Student</h2>
             <p className="home-description">
-              2nd Year student at Government College of Engineering and Ceramic Technology, 
+              2nd Year Information Technology student at Government College of Engineering and Ceramic Technology, 
               passionate about Machine Learning and AI. Currently learning web development 
               to build interactive ML applications and expand my technical skillset.
             </p>
