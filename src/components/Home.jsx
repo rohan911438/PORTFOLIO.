@@ -8,13 +8,13 @@ const Home = () => {
         <div className="home-content">
           <div className="home-text">
             <h1 className="home-title">
-              Hello, I'm <span className="highlight">Your Name</span>
+              Hello, I'm <span className="highlight">Rohan Kumar</span>
             </h1>
-            <h2 className="home-subtitle">Full Stack Developer</h2>
+            <h2 className="home-subtitle">Machine Learning Engineer & Full Stack Developer</h2>
             <p className="home-description">
-              I craft digital experiences with clean code and innovative solutions. 
-              Passionate about modern web technologies, system architecture, and creating 
-              scalable applications that make a difference.
+              I bring ideas to life through code, specializing in machine learning, data science, 
+              and full-stack development. Passionate about creating innovative AI solutions and 
+              scalable applications that solve real-world problems and make a difference.
             </p>
             <div className="home-buttons">
               <button 

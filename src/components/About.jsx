@@ -15,25 +15,25 @@ const About = () => {
             <div className="about-card">
               <h3>Who Am I?</h3>
               <p>
-                I'm a passionate Full Stack Developer with a strong foundation in modern web technologies. 
-                I love creating digital experiences that not only look great but also provide exceptional user experiences.
+                I'm Rohan Kumar, a passionate Machine Learning Engineer and Full Stack Developer from India. 
+                I enjoy bringing ideas to life through code and am curious, detail-oriented, and always learning new things.
               </p>
               <p>
-                My journey in web development started with curiosity about how websites work, and it has evolved 
-                into a deep passion for creating innovative solutions that solve real-world problems.
+                My journey started with curiosity about artificial intelligence and data science, which evolved 
+                into a deep passion for creating AI-powered solutions that solve real-world problems through innovative technology.
               </p>
             </div>
 
             <div className="about-card">
               <h3>What I Do</h3>
               <p>
-                I specialize in building responsive web applications using React, Node.js, and modern databases. 
-                I'm experienced in both frontend and backend development, which allows me to create complete, 
-                end-to-end solutions.
+                I specialize in machine learning, data analysis, and building end-to-end AI applications. 
+                My expertise includes Python development, neural networks, computer vision, and creating 
+                scalable web applications that integrate AI capabilities.
               </p>
               <p>
-                I'm always eager to learn new technologies and stay updated with the latest trends in web development. 
-                I believe in writing clean, maintainable code and following best practices.
+                From linear regression to deep learning models, from voice assistants to blockchain applications, 
+                I love exploring cutting-edge technologies and transforming complex algorithms into user-friendly solutions.
               </p>
             </div>
           </div>
