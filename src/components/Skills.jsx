@@ -50,7 +50,7 @@ const Skills = () => {
       title: 'Data Science and Analytics Intern',
       company: 'Vital Skills · Internship',
       period: 'Jun 2025 - Jun 2025 · 1 mo',
-      description: '➡️ Actively participating in a structured internship program focused on core concepts in data science and analytics. ➡️ Working with real-world datasets to apply statistical methods and machine learning techniques. ➡️ Gaining practical experience with tools such as Python, pandas, NumPy, matplotlib, and scikit-learn. ➡️ Developing analytical thinking and problem-solving skills through project-based tasks. ➡️ Enhancing understanding of data preprocessing, visualization, and model evaluation.',
+      description: 'Completed an intensive internship program focusing on data science fundamentals and practical applications. Worked extensively with real-world datasets to implement statistical methods and machine learning algorithms. Gained hands-on experience in data preprocessing, visualization, and model evaluation while developing strong analytical and problem-solving capabilities through project-based learning.',
       technologies: ['Analytics', 'Data Science', 'Python', 'pandas', 'NumPy', 'matplotlib', 'scikit-learn']
     }
   ];

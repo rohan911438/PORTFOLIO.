@@ -228,14 +228,6 @@ const Projects = () => {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
-
-        <div className="projects-cta">
-          <h3>Real-World ML Projects</h3>
-          <p>These are authentic projects showcasing my journey in Machine Learning, AI, and software development!</p>
-          <a href="https://github.com/rohan911438" className="cta-button" target="_blank" rel="noopener noreferrer">
-            View All My GitHub Projects
-          </a>
-        </div>
       </div>
     </section>
   );

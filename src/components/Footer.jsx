@@ -37,11 +37,11 @@ const Footer = () => {
           <div className="footer-section">
             <div className="footer-logo">
               <h3>Rohan Kumar</h3>
-              <p>ML Enthusiast & CS Student</p>
+              <p>ML Enthusiast & IT Student</p>
             </div>
             <p className="footer-description">
-              Machine Learning enthusiast and 2nd Year CS student, learning web development 
-              to build interactive ML applications and data visualization tools.
+              Machine Learning enthusiast and 2nd Year Information Technology student, building 
+              interactive ML applications and expanding technical expertise.
             </p>
             <div className="footer-social">
               {socialLinks.map((social, index) => (
@@ -91,11 +91,7 @@ const Footer = () => {
             <div className="footer-contact">
               <p>
                 <span className="contact-icon">📧</span>
-                upaharjana2004@gmail.com
-              </p>
-              <p>
-                <span className="contact-icon">📱</span>
-                +91 xxxxx-xxxxx
+                123131rkorohan@gmail.com
               </p>
               <p>
                 <span className="contact-icon">📍</span>
@@ -116,7 +112,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-divider"></div>
           <div className="footer-bottom-content">
-            <p>&copy; {currentYear} Upahar Jana. All rights reserved.</p>
+            <p>&copy; {currentYear} Rohan Kumar. All rights reserved.</p>
             <div className="footer-bottom-links">
               <span className="footer-link">Privacy Policy</span>
               <span className="footer-link">Terms of Service</span>
