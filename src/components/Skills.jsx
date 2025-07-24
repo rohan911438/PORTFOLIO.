@@ -40,25 +40,18 @@ const Skills = () => {
 
   const learning = [
     {
-      title: 'Machine Learning Student',
-      company: 'Government College of Engineering and Ceramic Technology',
-      period: '2023 - Present',
-      description: 'Currently in 2nd year, focusing on ML algorithms, data analysis, and computer science fundamentals.',
-      technologies: ['Python', 'Machine Learning', 'Data Analysis', 'Statistics']
+      title: 'Campus Ambassador',
+      company: 'Repository',
+      period: 'Jun 2025 - Present · 2 mos',
+      description: 'Working as a Campus Ambassador for Repository, building relationships and engaging with the student community.',
+      technologies: ['Leadership', 'Community Building', 'Marketing', 'Communication']
     },
     {
-      title: 'Web Development Journey',
-      company: 'Self-Learning',
-      period: '2024 - Present',
-      description: 'Learning web technologies to build interactive interfaces for ML projects and data visualization.',
-      technologies: ['React', 'JavaScript', 'HTML', 'CSS']
-    },
-    {
-      title: 'Programming & Algorithms',
-      company: 'Academic Coursework',
-      period: '2023 - Present',
-      description: 'Learning programming fundamentals, data structures, and algorithms essential for ML implementation.',
-      technologies: ['C', 'Java', 'Python', 'DSA']
+      title: 'Data Science and Analytics Intern',
+      company: 'Vital Skills · Internship',
+      period: 'Jun 2025 - Jun 2025 · 1 mo',
+      description: '➡️ Actively participating in a structured internship program focused on core concepts in data science and analytics. ➡️ Working with real-world datasets to apply statistical methods and machine learning techniques. ➡️ Gaining practical experience with tools such as Python, pandas, NumPy, matplotlib, and scikit-learn. ➡️ Developing analytical thinking and problem-solving skills through project-based tasks. ➡️ Enhancing understanding of data preprocessing, visualization, and model evaluation.',
+      technologies: ['Analytics', 'Data Science', 'Python', 'pandas', 'NumPy', 'matplotlib', 'scikit-learn']
     }
   ];
 
