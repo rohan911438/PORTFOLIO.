@@ -1,13 +1,31 @@
 {
-  "name": "portfolio",
+  "name": "rohan-kumar-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "description": "Modern portfolio website for Rohan Kumar - ML Enthusiast & IT Student",
+  "author": "Rohan Kumar <123131rkorohan@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://rohan911438.github.io/PORTFOLIO",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohan911438/PORTFOLIO.git"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "vite",
+    "machine-learning",
+    "data-science",
+    "web-development"
+  ],
   "scripts": {
     "dev": "vite",
     "dev:network": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -15,6 +33,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.6.0",
+    "gh-pages": "^6.3.0",
     "vite": "^7.0.4"
   }
 }

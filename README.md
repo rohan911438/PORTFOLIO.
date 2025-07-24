@@ -1,180 +1,271 @@
-# Portfolio Website - Rohan Kumar
+# 🚀 Rohan Kumar - Personal Portfolio
 
-A modern, responsive portfolio website showcasing my expertise in Machine Learning, Data Science, and Web Development. Built with React and Vite, this portfolio demonstrates my professional journey and technical capabilities.
+[![React](https://img.shields.io/badge/React-19.0.0-blue.svg)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-7.0.4-purple.svg)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Deployment](https://img.shields.io/badge/Status-Live-brightgreen.svg)](https://rohan911438.github.io/portfolio)
 
-## 🚀 Features
+> A modern, responsive portfolio website showcasing expertise in Machine Learning, Data Science, and Web Development. Built with React and Vite, featuring a sleek dark theme and interactive components.
 
-- **Responsive Design**: Optimized for all device sizes with mobile-first approach
-- **Modern Dark Theme**: Clean, professional black theme design with smooth animations
-- **Component-Based**: Modular React components for easy maintenance and scalability
-- **Smooth Navigation**: Scroll-to-section navigation with smooth scrolling effects
-- **Interactive Contact Form**: Form validation and submission feedback
-- **Skills Showcase**: Visual representation of my technical expertise with animated progress bars
-- **ML Projects**: Comprehensive showcase of Machine Learning and Data Science projects
-- **Fast Performance**: Built with Vite for optimal build times and performance
+## 🌟 Live Demo
+
+**🔗 [Visit Portfolio](https://rohan911438.github.io/PORTFOLIO)**
+
+## 📋 Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Customization](#customization)
+- [Deployment](#deployment)
+- [Contact](#contact)
+- [License](#license)
+
+## 👨‍💻 About
+
+Hi! I'm **Rohan Kumar**, a 2nd Year Information Technology student at Government College of Engineering and Ceramic Technology, Kolkata. I'm passionate about Machine Learning, AI, and building interactive applications that solve real-world problems.
+
+### 🎯 Current Focus
+- **Machine Learning & AI**: Building intelligent systems and data-driven applications
+- **Web Development**: Creating responsive, interactive web applications
+- **Data Science**: Analyzing data to extract meaningful insights
+- **Open Source**: Contributing to projects and sharing knowledge
+
+## ✨ Features
+
+### 🎨 Design & UX
+- **Modern Dark Theme**: Professional black theme with cyan accents
+- **Fully Responsive**: Optimized for all devices (mobile-first approach)
+- **Smooth Animations**: Interactive hover effects and smooth transitions
+- **Loading Animations**: Enhanced user experience with smooth page transitions
+
+### 🛠️ Technical Features
+- **Component-Based Architecture**: Modular React components for scalability
+- **Fast Performance**: Built with Vite for optimal loading times
+- **SEO Optimized**: Proper meta tags and semantic HTML structure
+- **Accessibility**: ARIA labels and keyboard navigation support
+
+### 📱 Sections
+- **🏠 Home**: Hero section with animated introduction
+- **👤 About**: Personal background, statistics, and education timeline
+- **🎓 Education**: Academic journey from elementary to current BTech
+- **🏆 Certifications**: Professional courses and credentials
+- **💼 Skills**: Interactive skill bars with categorized expertise
+- **📊 Projects**: 14+ ML/Data Science projects with live demos
+- **📞 Contact**: Interactive form with social media links
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 19, CSS3, HTML5
-- **Build Tool**: Vite 7.0.4
-- **Styling**: Modern CSS with CSS Variables, Flexbox, Grid
-- **Fonts**: Google Fonts (Inter, JetBrains Mono)
-- **Icons**: Emoji icons for universal appeal
-- **Theme**: Custom dark/black theme design
+### Frontend
+- ![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react&logoColor=white)
+- ![Vite](https://img.shields.io/badge/Vite-7.0.4-646CFF?logo=vite&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 
-## Components
+### Styling & Design
+- **CSS Variables**: Dynamic theming system
+- **Flexbox & Grid**: Modern layout techniques
+- **Google Fonts**: Inter & JetBrains Mono
+- **Responsive Design**: Mobile-first approach
 
-### Header
-- Fixed navigation bar with smooth scroll links
-- Mobile-responsive hamburger menu
-- Modern glassmorphism design
+### Development Tools
+- **ESLint**: Code quality and consistency
+- **Vite HMR**: Hot Module Replacement for fast development
+- **Git**: Version control and collaboration
 
-### Home
-- Hero section with call-to-action buttons
-- Animated background elements
-- Professional introduction
+## 📸 Screenshots
 
-### About
-- Personal information and background
-- Statistics cards showing experience metrics
-- Core values and principles
+### Desktop View
+```
+🖥️ Hero Section       🖥️ Skills Section     🖥️ Projects Gallery
+┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐
+│   Rohan Kumar   │   │  Skills & Tech  │   │   14+ Projects  │
+│  ML Enthusiast  │   │   Progress Bars │   │  Filter & Cards │
+│  [View Projects]│   │  Experience Timeline│   │  GitHub & Demos │
+└─────────────────┘   └─────────────────┘   └─────────────────┘
+```
 
-### Skills
-- Technical skills with interactive progress bars
-- Categorized skill sets (Frontend, Backend, Tools)
-- Professional experience timeline
+### Mobile View
+```
+📱 Responsive Design    📱 Navigation Menu    📱 Project Cards
+┌─────────────┐        ┌─────────────┐       ┌─────────────┐
+│ Rohan Kumar │        │    ☰ Menu   │       │   Project   │
+│ Introduction│        │  • Home     │       │   Details   │
+│   Skills    │        │  • About    │       │ [GitHub][Demo]│
+│  Projects   │        │  • Skills   │       │             │
+│  Contact    │        │  • Contact  │       │   Tech Tags │
+└─────────────┘        └─────────────┘       └─────────────┘
+```
 
-### Projects
-- Filterable project gallery
-- Project cards with technology tags
-- Links to live demos and GitHub repositories
-- Featured project highlighting
-
-### Contact
-- Interactive contact form
-- Contact information cards
-- Social media links
-- Form validation and submission feedback
-
-### Footer
-- Additional navigation links
-- Social media links
-- Copyright information
-- Back-to-top functionality
-
-## Tech Stack
-
-- **Frontend**: React 18, CSS3, HTML5
-- **Build Tool**: Vite
-- **Styling**: Modern CSS with CSS Variables, Flexbox, Grid
-- **Fonts**: Google Fonts (Inter)
-- **Icons**: Emoji icons for modern, universal appeal
-
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
-
-- Node.js (version 14 or higher)
-- npm or yarn
+- **Node.js** (v16.0.0 or higher)
+- **npm** or **yarn**
+- **Git**
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/rohan911438/PORTFOLIO.git
+   cd PORTFOLIO
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open browser**
+   ```
+   http://localhost:5173
+   ```
+
+### Build for Production
+
 ```bash
-git clone <your-repository-url>
-cd portfolio
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and visit `http://localhost:5173`
-
-### Building for Production
-
-```bash
+# Build the project
 npm run build
-```
 
-The build artifacts will be stored in the `dist/` directory.
-
-### Preview Production Build
-
-```bash
+# Preview production build
 npm run preview
 ```
 
-## Customization
+## 📁 Project Structure
+
+```
+portfolio/
+├── 📁 public/
+│   ├── profile-photo.jpg
+│   └── vite.svg
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── About.jsx & About.css
+│   │   ├── Contact.jsx & Contact.css
+│   │   ├── Footer.jsx & Footer.css
+│   │   ├── Header.jsx & Header.css
+│   │   ├── Home.jsx & Home.css
+│   │   ├── Projects.jsx & Projects.css
+│   │   ├── ProjectsFixed.jsx
+│   │   └── Skills.jsx & Skills.css
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css (Global styles & CSS variables)
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── README.md
+└── LICENSE
+```
+
+## 🎨 Customization
 
 ### Personal Information
-Update the following files with your personal information:
-
-1. **Components**: Update text content in each component file
-2. **Contact Information**: Update email, phone, and social media links
-3. **Skills**: Modify the skills arrays in `Skills.jsx`
-4. **Projects**: Update the projects array in `Projects.jsx`
-5. **Images**: Replace placeholder emojis with actual images
+1. **Update contact details** in `Contact.jsx`
+2. **Modify skills** in `Skills.jsx`
+3. **Add/remove projects** in `ProjectsFixed.jsx`
+4. **Change education info** in `About.jsx`
 
 ### Styling
-- Modify CSS variables in `index.css` for global color scheme
-- Update individual component CSS files for specific styling
-- Fonts can be changed by updating the Google Fonts import
+```css
+/* Update colors in src/index.css */
+:root {
+  --primary-color: #00d4ff;      /* Main accent color */
+  --bg-primary: #000000;         /* Background color */
+  --text-primary: #ffffff;       /* Text color */
+  --card-bg: #0a0a0a;           /* Card background */
+}
+```
 
 ### Adding New Sections
-1. Create a new component in the `components/` directory
-2. Import and add it to `App.jsx`
-3. Update the navigation in `Header.jsx`
+1. Create component in `src/components/`
+2. Import in `App.jsx`
+3. Add navigation link in `Header.jsx`
 
-## Deployment
+## 🌐 Deployment
 
-This project can be deployed to various platforms:
+### GitHub Pages (Recommended)
+```bash
+# Install gh-pages
+npm install --save-dev gh-pages
 
-- **Netlify**: Connect your GitHub repository for automatic deployments
-- **Vercel**: Import project from GitHub for seamless deployment
-- **GitHub Pages**: Use GitHub Actions for automated deployment
-- **AWS S3**: Upload the build files to an S3 bucket
+# Add to package.json scripts
+"homepage": "https://rohan911438.github.io/PORTFOLIO",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
 
-## Browser Support
+# Deploy
+npm run deploy
+```
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+### Alternative Platforms
+- **Netlify**: Connect GitHub repo for auto-deploy
+- **Vercel**: Import project for seamless deployment
+- **AWS S3**: Upload build files to S3 bucket
 
-## Contributing
+## 📊 Portfolio Highlights
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+### 🤖 Machine Learning Projects
+- **Student Performance Prediction**: End-to-end ML pipeline with Flask
+- **MLflow Wine Quality**: Complete MLOps with experiment tracking
+- **ANN Churn Prediction**: Deep learning for customer retention
+- **Stock Price Prediction**: Financial forecasting with LSTM
 
-## License
+### 📈 Data Science Projects
+- **Diwali Sales EDA**: Comprehensive data analysis
+- **Sentiment Analysis**: NLP for text classification
+- **Image Classification**: Computer vision with CNNs
 
-This project is open source and available under the [MIT License](LICENSE).
+### 🌐 Web Development
+- **Portfolio Website**: This responsive React application
+- **Interactive Visualizations**: Data visualization tools
 
-## Contact
+## 🔗 Connect With Me
 
-Feel free to reach out if you have any questions or suggestions!
+[![GitHub](https://img.shields.io/badge/GitHub-rohan911438-181717?logo=github)](https://github.com/rohan911438)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rohan%20Kumar-0A66C2?logo=linkedin)](https://www.linkedin.com/in/rohan-kumar-1a60b7314/)
+[![Email](https://img.shields.io/badge/Email-123131rkorohan%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:123131rkorohan@gmail.com)
+[![Twitter](https://img.shields.io/badge/Twitter-ROHANKUMAR77238-1DA1F2?logo=twitter&logoColor=white)](https://x.com/ROHANKUMAR77238)
 
-- Email: upaharjana@2004.com
-- LinkedIn: [LinkedIn Profile](https://linkedin.com/in/upaharjana)
-- GitHub: [GitHub Profile](https://github.com/upaharjana)+ Vite
+### 📧 Contact Information
+- **Email**: [123131rkorohan@gmail.com](mailto:123131rkorohan@gmail.com)
+- **Location**: Kolkata, India
+- **Institution**: Government College of Engineering & Ceramic Technology
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📜 License
 
-Currently, two official plugins are available:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🙏 Acknowledgments
 
-## Expanding the ESLint configuration
+- **React Team** for the amazing framework
+- **Vite Team** for the lightning-fast build tool
+- **Google Fonts** for beautiful typography
+- **GitHub** for hosting and version control
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📈 Stats
+
+![GitHub Stars](https://img.shields.io/github/stars/rohan911438/PORTFOLIO?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/rohan911438/PORTFOLIO?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/rohan911438/PORTFOLIO)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/rohan911438/PORTFOLIO)
+
+---
+
+<div align="center">
+
+**⭐ If you like this portfolio, please give it a star! ⭐**
+
+Made with ❤️ by [Rohan Kumar](https://github.com/rohan911438)
+
+</div>
